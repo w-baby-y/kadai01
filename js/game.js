@@ -40,7 +40,7 @@ async function playJanken(playerHand) {
   // 掛け声の表示
   displayStrings(strArr);
   //じゃんけんが始まるまでストップ
-  await sleep(0);
+  await sleep(3500);
 
   // プレイヤーの手を表示
   var resultDiv = document.querySelector("#result");
