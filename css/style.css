@@ -1,10 +1,10 @@
 /* 大きく作りすぎたので縮小 */
-html {
+/* html {
   transform: scale(0.7);
   transform-origin: left top;
   height: calc(100% / 0.7);
   width: calc(100% / 0.7);
-}
+} */
 
 .wrap {
   width: 1200px;
@@ -164,3 +164,4 @@ html {
   font-size: 24px;
 }
 /* モーダルCSSここまで */
+

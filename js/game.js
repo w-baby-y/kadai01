@@ -40,7 +40,7 @@ async function playJanken(playerHand) {
   // 掛け声の表示
   displayStrings(strArr);
   //じゃんけんが始まるまでストップ
-  await sleep(3500);
+  await sleep(0);
 
   // プレイヤーの手を表示
   var resultDiv = document.querySelector("#result");
@@ -269,7 +269,11 @@ function determineWinner(playerHand, computerHand) {
 }
 
 // 文字列配列を定義
-const strArr = ["チェック", "セット", "オープン……！"];
+const strArr = [
+  "<span>チェック</span>",
+  "<span>セット</span>",
+  "<span>オープン……！</span>",
+];
 // 配列内の文字列を順番に表示する関数
 function displayStrings(arr) {
   let i = 0;
